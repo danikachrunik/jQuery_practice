@@ -1,3 +1,9 @@
-function Slider() {
-	$(".slider #1").show("fade", 500);
-}
+$(document).ready(function() {
+	$('input').click(function() {
+	var a = $('#animate');
+	if (a.is(':hidden'))
+		a.show();
+	else
+		a.hide();
+	});
+});
