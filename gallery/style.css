@@ -1,0 +1,23 @@
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#gallery {
+	position: relative;
+	left: 80px;
+	top: 80px;
+	background-color: #555;
+	border: 2px solid black;
+	width: 600px;
+	height: 400px;
+
+	perspective: 250px;
+	perspective-origin: 50% 50%;
+}
+
+.galleryImg {
+	position: absolute;
+	border: 1px solid black;
+}
