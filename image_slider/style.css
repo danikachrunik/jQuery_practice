@@ -1,6 +1,17 @@
+* {
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 .wrapper {
 	width: 1000px;
-	margin: 0 auto;
 }
 
 #slider {
@@ -10,7 +21,7 @@
 	margin: 30px auto;
 }
 
-#slider > img {
+#slider>img {
 	width: 1000px;
 	height: 667px;
 	float: left;
@@ -23,12 +34,4 @@
 	margin-top: 30px;
 	text-decoration: none;
 	color: #666;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
 }

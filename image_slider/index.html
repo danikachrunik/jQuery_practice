@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -9,23 +9,22 @@
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	</head>
 
-	<body onload="Slider();">
+	<body>
 		<div class="wrapper">
-			<div class="slider">
+			<div id="slider">
 				<img id="1" src="images/fallen-tree-forest-moss.jpg" alt="fallen-tree-forest-moss">
 				<img id="2" src="images/fog-foggy-mist.jpg" alt="fog-foggy-mist">
 				<img id="3" src="images/grass-lawn-park.jpg" alt="grass-lawn-park">
 				<img id="4" src="images/lake-sea.jpg" alt="lake-sea">
 			</div>
 
-			<a href="#" class="slider_arrows left">Previous</a>
-			<a href="#" class="slider_arrows right">Next</a>
+			<a href="#" class="slider_arrows left" onclick="prev(); return false;">Previous</a>
+			<a href="#" class="slider_arrows right" onclick="next(); return false;">Next</a>
 		</div>
 
 		<!--scripts-->
-		<script src="script.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="script.js"></script>
 
 	</body>
 
